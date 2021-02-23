@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tracking Hub</string>
+    <string name="app"> </string>
+    <string name="signIn">Sign In</string>
+    <string name="create">Register</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="ok">Ok</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="plese_enter_the_credential">Please Enter The Credentials.</string>
+    <string name="forgot_password_heading">Forgot Password</string>
+    <string name="forgot_password_str">Forgot Your Password?</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_email">Username/Email</string>
+    <string name="not_account">Don\'t have an account?</string>
+    <string name="return_to_login_page">Back to Login</string>
+    <string name="have_Account">Already have an account.</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="valid_error_name">Please enter your name.</string>
+    <string name="error_username">Please enter the username.</string>
+    <string name="valid_error_valid_email">Please enter the valid email.</string>
+    <string name="error_password">Please enter the password.</string>
+    <string name="valid_password">Please enter the password greater than 5 characters.</string>
+    <string name="Press_once_again_to_exit">Press once again to exit.</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="title_activity_google__maps_">Map</string>
+</resources>

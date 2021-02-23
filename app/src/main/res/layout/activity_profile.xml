@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.Profile_Activity">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="@dimen/fifty_dp"
+            android:layout_height="@dimen/fourty"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparant"
+            android:src="@drawable/backbutton_green" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/fifteen_dp"
+
+        >
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/profile_image" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/twenty_four_sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Username"
+
+        />
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="CSB"
+        android:textColor="@color/black"
+        android:textSize="@dimen/twenty_sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Contact"
+
+        />
+
+    <TextView
+        android:id="@+id/Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1234567890"
+        android:textColor="@color/black"
+        android:textSize="@dimen/twenty_sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Address"
+
+        />
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Itwari, Nagpur"
+        android:textColor="@color/black"
+        android:textSize="@dimen/twenty_sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="@string/logout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty_sp"
+        android:layout_marginTop="200dp"
+        />
+    </LinearLayout>
+</LinearLayout>

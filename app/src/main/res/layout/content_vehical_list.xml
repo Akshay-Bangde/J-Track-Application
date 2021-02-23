@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/fint_grey"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/truck" />
+
+            <TextView
+                android:id="@+id/vehical_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/icon"
+                android:text="MH40BL2014"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fifteen_sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/vehical_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vehical_number"
+                android:layout_marginTop="5dp"
+                android:paddingEnd="5dp"
+                android:text="SH 1A, Darhawal, Uttar Pardesh 272201, India"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fifteen_sp" />
+
+            <TextView
+                android:id="@+id/vehical_last_DateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vehical_address"
+                android:text="Last Update : 18-02-2021 11:49:36 AM"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fifteen_sp"
+                />
+
+
+            <TextView
+                android:id="@+id/vehical_speed"
+                android:layout_width="55dp"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="122dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="51dp"
+                android:layout_toEndOf="@+id/icon"
+                android:gravity="center"
+                android:text="30"
+                android:textColor="@color/black"
+                android:textSize="@dimen/thirty_five_sp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignRight="@+id/vehical_speed"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:text="km/hr"
+                android:textColor="@color/black"
+                android:textSize="@dimen/fifteen_sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
